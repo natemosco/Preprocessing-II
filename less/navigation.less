@@ -1,7 +1,11 @@
 // Navigation Styles here
 .navigation-section{
     width:100%;
+    border-bottom: 2px dashed @navigation-border;
     .flex(space-between, center, no-wrap);
+    @media @mobile{
+        flex-direction:column;
+    }
     h1{
         width:25%;
     }
@@ -9,10 +13,14 @@
         width:50%;
         font-size: 1.8em;
         .flex();
+        @media @mobile {
+            width:100%
+        }
         a{
             text-decoration: none;
             color: black;
             
         }
     }
+    
 }

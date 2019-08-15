@@ -170,10 +170,16 @@ img {
 }
 .navigation-section {
   width: 100%;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: no-wrap;
+}
+@media (max-width:500px) {
+  .navigation-section {
+    flex-direction: column;
+  }
 }
 .navigation-section h1 {
   width: 25%;
@@ -185,6 +191,11 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: no-wrap;
+}
+@media (max-width:500px) {
+  .navigation-section nav {
+    width: 100%;
+  }
 }
 .navigation-section nav a {
   text-decoration: none;
@@ -200,6 +211,16 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .banner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home .banner img {
+  margin-bottom: 2%;
 }
 .home .content-section {
   margin: 30px 0;
