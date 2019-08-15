@@ -56,7 +56,15 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      button{
+        border-style: none;
+        width:100%;
+        .flex(center, center, no-wrap);
+        .btn{
+          .button-style(100%, @button-bg, @main-bg, 1.6rem);
+        }
+      }
     }
   }
-  
+
 }// home

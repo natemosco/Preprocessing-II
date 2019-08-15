@@ -247,3 +247,21 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination button {
+  border-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+.home .content-pick .destination button .btn {
+  width: 100%;
+  background: #17A2B8;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  border: 1px solid #C0C0C0;
+  border-radius: 25px;
+  padding: 1% 3%;
+  height: 15%;
+}
