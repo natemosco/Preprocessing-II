@@ -180,10 +180,18 @@ img {
 @media (max-width:500px) {
   .navigation-section {
     flex-direction: column;
+    justify-content: space-around;
+    padding: 2% 10%;
   }
 }
 .navigation-section h1 {
   width: 35%;
+}
+@media (max-width:500px) {
+  .navigation-section h1 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+  }
 }
 .navigation-section nav {
   width: 50%;
@@ -196,6 +204,7 @@ img {
 @media (max-width:500px) {
   .navigation-section nav {
     width: 100%;
+    font-size: 1.5rem;
   }
 }
 .navigation-section nav a {
@@ -312,6 +321,8 @@ img {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 5% 5% 0 5%;
   }
 }
 .home .content-pick .destination {
@@ -340,4 +351,10 @@ img {
   border-radius: 25px;
   padding: 1% 3%;
   height: 15%;
+}
+@media (max-width:500px) {
+  .home .content-pick .destination button .btn {
+    padding: 4% 0;
+    font-size: 1.9rem;
+  }
 }
