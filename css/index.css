@@ -292,7 +292,14 @@ img {
   width: 75%;
   margin: 0 auto 30px;
 }
-.home img {
+@media (max-width:500px) {
+  .home .content-destination {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 5%;
+  }
+}
+.home .content-destination img {
   border-radius: 10px;
 }
 .home .content-pick {
