@@ -274,6 +274,11 @@ img {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: no-wrap;
+  flex-direction: column-reverse;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
